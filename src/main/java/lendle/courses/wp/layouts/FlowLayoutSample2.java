@@ -6,7 +6,9 @@
 package lendle.courses.wp.layouts;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.FlowLayout;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
 
@@ -28,7 +30,7 @@ public class FlowLayoutSample2 {
         frame.setLayout(layout);
         //1. create five CustomComponent, and add them to the frame
         //2. change the preferredSize of CustomComponent
-        
+       
         //////////////////////////////////////////////////////////////////////
         
         frame.setVisible(true);
