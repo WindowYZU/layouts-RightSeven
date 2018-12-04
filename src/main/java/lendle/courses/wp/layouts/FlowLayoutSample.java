@@ -6,6 +6,7 @@
 package lendle.courses.wp.layouts;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.FlowLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -36,6 +37,7 @@ public class FlowLayoutSample {
         
         for(int i=1 ; i<=5 ; i++){
             JButton button = new JButton("button_"+i);
+            //button.setPreferredSize(new Dimension(100, 80));
             frame.add(button);
         }
 
